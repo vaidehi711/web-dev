@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styling & button</title>
+    <style>
+        *{
+            width: 1200px;
+            height: 12px;
+            box-sizing: border-box;
+           /* block elements hight and width nahi ghet */
+        }
+        h2 {
+            text-align: center;
+        }
+
+        .container {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 2px solid red;
+            margin: 34px, auto;
+
+            padding: 20px;
+            background: #f4c0c0;
+            height: 90px;
+        }
+
+        a:hover {
+            color: rgb(50, 139, 216);
+            background: rgb(196, 220, 17); 
+        }
+        a :visited{
+            color: rgb(93, 7, 174);
+        }
+        a :active{
+            color: #712d2d;
+        }
+
+        .link {
+            background-color: aliceblue;
+            padding: 5px;
+            width:  120px;
+            height: 40px;
+            border-radius: 3px;
+            border: none;
+        }
+        .link:hover{
+            background-color: rgb(37, 72, 104);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Selectors</h2>
+        <p class="container" id="con1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam placeat
+            incidunt
+            corporis corrupti, accusamus
+            rerum voluptate adipisci est tempora mollitia? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Alias
+            recusandae veniam beatae numquam placeat eveniet labore cupiditate illo eius error, quas ad ratione, non
+            nesciunt! Et pariatur laboriosam vitae explicabo!<br><br>
+            <a href="https://www.facebook.com/" class="link">open with Google</a>
+            <button class="link">contact us</button>
+        </p>
+    </div>
+</body>
+
+</html>

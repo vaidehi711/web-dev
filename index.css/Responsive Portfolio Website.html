@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        line-height: 1.6;
+        color: #333;
+      }
+      header {
+        background: #171716f4;
+        color: #fff;
+        padding: 1rem 0;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1100px;
+        margin: auto;
+        padding: 0 1rem;
+      }
+
+      nav img {
+        width: 70px;
+        margin-right: 600px;
+        height: 70px;
+        border-radius: 40px;
+      }
+      nav h1 {
+        font-size: 1.5rem;
+        align-items: center;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+      }
+      nav ul li {
+        margin-left: 20px;
+      }
+      ul li a {
+        text-decoration: none;
+        color: #fff;
+      }
+      ul li a:hover {
+        background-color: rgb(23, 22, 22);
+        color: yellowgreen;
+        text-decoration: underline;
+        font-size: 15px;
+      }
+      #context1 {
+        background: #f4f4f4;
+        padding: 100px 1rem;
+        text-align: center;
+      }
+      #context2 {
+        padding: 60px 1rem;
+        max-width: 1100px;
+        margin: auto;
+        margin-right: 100px;
+      }
+      .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .project-card {
+        background: #eee;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+      }
+      #contact {
+        padding: 60px 1rem;
+        max-width: 1100px;
+        margin: auto;
+        margin-right: 100px;
+      }
+
+      footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 40px;
+      }
+      @media (max-width: 768px) {
+        nav ul {
+          flex-direction: column;
+          margin-top: 10px;
+        }
+
+        nav ul li {
+          margin: 10px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>My Portfolio</h1>
+        <img src="./WhatsApp Image 2025-04-10 at 2.37.58 PM.jpeg" alt="" />
+
+        <ul>
+          <li><a href="#about">about</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="context1">
+      <h2>Hello, I am Vaidehi Mungikar</h2>
+      <p>Web Developer & Designer</p>
+    </section>
+    <section id="context2">
+      <h2>About Me</h2>
+      <p>
+        I create beautiful and functional websites using modern web
+        technologies.
+      </p>
+    </section>
+    <section id="projects">
+      <div class="project-grid">
+        <a href="#Project 1" class="project-card">Project 1</a>
+        <a href="#Project 2" class="project-card">Project 2</a>
+        <a href="#project3" class="project-card">Project 3</a>
+        <a href="project4" class="project-card">Project 4</a>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact : 9922312349</h2>
+      <p>Email : mungikarvaidehi28@gmail.com</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Vaidehi Mungikar All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 1</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        margin-left: 550px;
+      }
+      .container {
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .form-group {
+        margin-bottom: 10px;
+      }
+      .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .form-group input[type="text"],
+      .form-group select,
+      .form-group textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      .form-group textarea {
+        resize: vertical;
+      }
+      .buttons {
+        text-align: right;
+      }
+      .buttons button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #eee;
+        cursor: pointer;
+      }
+      .buttons button:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Task 1</h2>
+      <form>
+        <div class="form-group">
+          <label for="field1">Field 1</label>
+          <input type="text" id="field1" value="" placeholder="text1" />
+        </div>
+        <div class="form-group">
+          <label for="field2">Field 2</label>
+          <input type="text" id="field2" value="" placeholder="text2" />
+        </div>
+        <div class="form-group">
+          <label for="field3">Field 3</label>
+          <select id="">
+            <option value="combo1">Combo1</option>
+            <option value="combo2">Combo1</option>
+            <option value="combo3">Combo1</option>
+            <option value="combo4">Combo1</option>
+            <option value="combo5">Combo1</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="field4">Field 4</label>
+          <input type="text" id="field4" value="" placeholder="text3" />
+        </div>
+        <div class="form-group">
+          <label for="field5">Field 5</label>
+          <input type="text" id="field5" value="" placeholder="text4" />
+        </div>
+        <div class="form-group">
+          <label for="field6">Field 6</label>
+          <textarea id="field6" rows="4" placeholder="TextArea1"></textarea>
+        </div>
+        <div class="buttons">
+          <button type="button">OK</button>
+          <button type="button">CANCEL</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
